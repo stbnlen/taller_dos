@@ -1,0 +1,91 @@
+$nav-bg: #26C485;
+$taxto-bg: #5B507A;
+$footer-color: #030301;
+$footer-text: #fff; 
+$color-ho: rgb(189, 3, 189);
+
+body {
+  background: 
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+.logotipo {
+    max-width: 6%;
+    height: auto;
+}
+
+    .header-text {
+    color: white;
+    text-shadow: black 3px 3px;
+    }
+        .header-text:hover {
+        color: $color-ho;
+        }
+
+
+
+.bg-taxto {
+    margin: 2rem 0;
+    background-color: $taxto-bg;
+}
+
+.bg-custom {
+    background-color: $nav-bg;
+    border: 1px black;
+}
+
+.slide {
+    height: 90vh;
+    padding-top: 2rem;
+}
+
+    .libi {
+    justify-content: end;
+    }
+
+.card.text {
+    font-size: .2rem;
+}
+
+.d-hidden {
+    display: hidden;
+}
+
+.boton {
+    margin-bottom: 5rem;
+}
+
+.footer {
+    background-color: $footer-color;
+    color: $footer-text;
+    margin-bottom: none;
+    }
+
+    .footer ul {
+        list-style: none;
+    }
+
+        .footer ul li a{
+            text-decoration: none;
+            color: $footer-text
+        }
+
+            .footer ul li a:hover {
+                color: $color-ho;
+            }
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
