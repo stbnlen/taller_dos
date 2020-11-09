@@ -3,45 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Libreria Karma</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 <body>
-      
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Libreria</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
 
+
+<header>
+  <nav class="navbar navbar-dark bg-custom navbar-expand-md fixed-top">
+    <div class="container">      
+      <a href="#" class="navbar-brand">
+        <h1 class="header-text h2"><span><img src="img/logo.png" alt="logotipo" class="logotipo"></span> Libreria Karma</h1>
+      </a>
+  
+        <button type="button" class="navbar-toggler" data-toggle="collapse"
+        data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+        aria-label="Desplegar menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="menu-principal">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+          </svg>Inicio</a></li>
+
+          <li class="nav-item"><a href="pages/Quines Somos.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+          </svg>¿Quienes Somos?</a></li>
+          
+          <li class="nav-item"><a href="pages/Catalogo.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-layout-text-sidebar-reverse" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+            <path fill-rule="evenodd" d="M5 15V1H4v14h1zm8-11.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
+          </svg>Catalogo</a></li>
+
+          <li class="nav-item"><a href="/pages/carro.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-minecart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8-1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82l1.313 7h11.17l1.313-7H1.102z"/>
+          </svg>Carro</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>  
 
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -51,23 +56,23 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="d-block w-100" alt="...">
+            <img src="img/slide1.jpg" class="d-block w-100 slide" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+              <h5>Gran variedad de titulos</h5>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="d-block w-100" alt="...">
+            <img src="img/slide2.jpg" class="d-block w-100 slide" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
+              <h5>Los mejores precios</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="d-block w-100" alt="...">
+            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="d-block w-100 slide" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+              <h5>Diferentes sucursales</h5>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </div>
           </div>
@@ -82,51 +87,131 @@
         </a>
       </div>
 
-     
-
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="img/LIBRERIASESPA1206-videoSixteenByNineJumbo1600.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
+      <section class="py-5 my-5 bg-taxto text-center text-white shadow rounded">
+
+        <div class="container shadow">
+          <div class="row">
+            <div class="col-12">
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+              </svg>
+              <p class="h2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis odio amet nulla ad nobis minima doloribus inventore, aspernatur distinctio dicta ipsam fugit suscipit ullam architecto eos molestias placeat rerum facere.</p>
+              <p class="h4 font-italic">- Tomas Mendez</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+      <section class="py-4">
+        <div class="container">
+          <h2 class="display-4 font-weight-bold text-center pb-4 h4">Destacados</h2>
+          <div class="row text-md-center">
+            <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+                <img class="card-img-top h-100" src="img/Portadas/Por_que_me_sigue_luna.jpg" alt="libro1">
+                <div class="card-body">
+                  <h5 class="card-title">Por que me sigue la luna</h5>    
+                  <div class="d-flex libi"><span class="badge bg-danger m-1">Pocas unidades</span><span class="badge bg-warning text-dark m-1">TOP</span></div>   
+                  <p class="card-text">
+                  <strong>Resumen:</strong>
+                    En esta nueva entrega de la serie de ciencia para
+                    niños de Gabriel León, Pachi, su papá y el perro
+                    Lukás se sumergirán en el mundo de las
+                    preguntas raras sobre el Universo. ¿Por qué los
+                    planetas son redondos? ¿Por qué titilan las
+                    estrellas? ¿Por qué me sigue la Luna cuando
+                    camino?
+                    ¿Por qué Marte se ve rojo? ¿Por qué la Vía
+                    Láctea se llama así? Son algunas de las
+                    interrogantes sobre el espacio que serán
+                    abordadas con un toque de humor y
+                    cotidianeidad.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+                <img class="card-img-top h-100" src="img/Portadas/Las_horas.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Las Horas</h5>
+                  <div class="d-flex libi"><span class="badge bg-warning text-dark">TOP</span></div> 
+                  <p class="card-text">
+                   <strong>Resumen:</strong> 
+                    Marthe de Florian, famosa cortesana durante su
+                    juventud, buscó llenar su existencia con arte y
+                    lujos, evadiendo los recuerdos de una infancia
+                    ensombrecida por la pobreza y los oscuros
+                    callejones de Montmartre. Mientras la guerra
+                    está a punto de desatarse en Europa, usa las
+                    preciadas posesiones que ha coleccionado
+                    durante una vida para compartirle su historia y
+                    secretos más íntimos a su nieta Solange, una
+                    joven que aspira a ser escritora.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+            </article>
+      
+            <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+                <img class="card-img-top h-100" src="img/Portadas/El_largo.jpg" alt="libro3">
+                <div class="card-body">
+                  <h5 class="card-title">El largo</h5>
+                  <div class="d-flex libi"><span class="badge bg-warning text-dark">TOP</span></div> 
+                  <p class="card-text">
+                   <strong>Resumen:</strong>
+                    En septiembre de 1940, mientras las bombas
+                    alemanas caen sobre Gran Bretaña, la joven
+                    Susan y su abuelo Bertie hallan consuelo criando
+                    y entrenando palomas mensajeras que el Ejército
+                    usará para transmitir información sobre los
+                    movimientos de los nazis en la Francia ocupada.
+                    A miles de kilómetros, en Estados Unidos, un
+                    joven piloto llamado Ollie decide unirse a la RAF,
+                    la Real Fuerza Aérea británica, entrando así . </p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-3   mb-3 mb-lg-0">
+              <div class="card">
+                <img class="card-img-top h-100" src="img/Portadas/Stoner.jpg" alt="libro4">
+                <div class="card-body">
+                  <h5 class="card-title">Stoner</h5>
+                  <div class="d-flex libi"><span class="badge bg-warning text-dark">TOP</span></div> 
+                  <p class="card-text">
+                    <strong>Resumen:</strong>
+                    Stoner es uno de los fenómenos literarios más
+                    resonantes de la última década. Convertida en
+                    un inesperado best-seller (ha sido traducida a
+                    más de veinte lenguas), fue publicada
+                    originalmente en Estados Unidos en 1965, y
+                    reeditada por Vintage en 2003 y por New York
+                    Review Books en 2006. A partir de entonces, la
+                    novela no ha dejado de ganar lectores y ha
+                    cautivado tanto a la crítica como a escritores de
+                    la talla de Ian McEwan, Bret Easton Ellis
+                    </p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    
       <footer>
           <p class="text-center">Que sucede</p>
       </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
 
 </body>
 </html>

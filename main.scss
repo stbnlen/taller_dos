@@ -1,12 +1,44 @@
-$footer-color: #000;
+$nav-bg: #26C485;
+$taxto-bg: #5B507A;
+$footer-color: #030301;
 $footer-text: #fff; 
 
-.col {
- margin-bottom: 1rem;
+.logotipo {
+    max-width: 6%;
+    height: auto;
 }
 
-.card {
-    margin-top: 1rem;
+.header-text {
+    color: white;
+    text-shadow: black 3px 3px;
+}
+    .header-text:hover {
+        color: black;
+    }
+
+
+
+.bg-taxto {
+    margin: 2rem 0;
+    background-color: $taxto-bg;
+}
+
+.bg-custom {
+    background-color: $nav-bg;
+    border: 1px black;
+}
+
+.slide {
+    height: 90vh;
+    padding-top: 2rem;
+}
+
+.libi {
+    justify-content: end;
+}
+
+.card.text {
+    font-size: .2rem;
 }
 
 footer {
