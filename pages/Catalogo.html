@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria Karma</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-dark bg-custom navbar-expand-md fixed-top">
+      <div class="container">      
+        <a href="/index.html" class="navbar-brand">
+          <h1 class="header-text h2"><span><img src="/img/logo.png" alt="logotipo" class="logotipo"></span> Libreria Karma</h1>
+        </a>
+    
+          <button type="button" class="navbar-toggler" data-toggle="collapse"
+          data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+          aria-label="Desplegar menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="menu-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="/index.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+              <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            </svg>Inicio</a></li>
+  
+            <li class="nav-item"><a href="Quines Somos.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+            </svg>¿Quienes Somos?</a></li>
+            
+            <li class="nav-item"><a href="Catalogo.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-layout-text-sidebar-reverse" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+              <path fill-rule="evenodd" d="M5 15V1H4v14h1zm8-11.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
+            </svg>Catalogo</a></li>
+  
+            <li class="nav-item"><a href="carro.html" class="nav-link active"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-minecart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8-1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82l1.313 7h11.17l1.313-7H1.102z"/>
+            </svg>Carro</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>  
+
+
+
+  <section class="py-4 mt-5">
+    <div class="container">
+      <h2 class="display-4 font-weight-bold text-center pb-4 h4">Catalogo Libros</h2>
+      <div class="row text-md-center">
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/1793.jpg" alt="libro1">
+            <div class="card-body">
+              <h5 class="card-title">1793</h5> 
+              <div class="d-flex libi"><span class="badge bg-info">Nuevo</span></div>     
+              <p class="card-text">
+              <strong>Resumen:</strong>
+              El fenómeno de ventas que ha revolucionado el
+              thriller histórico. Premiado en Suecia como
+              Mejor Libro del Año y considerado mejor debut
+              por la Academia Sueca de Novela Negra en 2017,
+              1793 es un apasionante thriller histórico que se
+              ha convertido en un fenómeno de ventas en toda
+              Europa. ...
+              </p>
+              <a href="/libros/1793.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/Balada_de_pajaros.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Balada de pajaros cantores y serpientes</h5> 
+              <p class="card-text">
+               <strong>Resumen:</strong> 
+               La ambición será su motor. La rivalidad, su
+               motivación. Pero alcanzar el poder tiene un
+               precio. Es la mañana de la cosecha que dará
+               comienzo a los décimos Juegos del Hambre. En el
+               Capitolio, Coriolanus Snow, de dieciocho años, se
+               prepara para una oportunidad única: alcanzar la
+               gloria como ...</p>
+              <a href="/libros/balada.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+  
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/El_cielo_es.jpg" alt="libro3">
+            <div class="card-body">
+              <h5 class="card-title">El cielo es azul, la tierra es blanca</h5> 
+              <p class="card-text">
+               <strong>Resumen:</strong>
+               Tsukiko tiene treinta y ocho años, vive sola y
+               trabaja en una oficina. Una noche se encuentra
+               en un bar con uno de sus antiguos profesores del
+               colegio. Él es treinta años mayor que ella,
+               jubilado y presumiblemente viudo. Su relación
+               evoluciona
+               -conducida
+               suavemente
+               por
+               Kawakami a lo largo... </p>
+              <a href="/libros/cieloa.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-3   mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/El_desfile_nocturno.jpg" alt="libro4">
+            <div class="card-body">
+              <h5 class="card-title">El desfile nocturno</h5>
+              <div class="d-flex libi"><span class="badge bg-info">Nuevo</span></div>
+              <p class="card-text">
+                <strong>Resumen:</strong>
+                Desde la neblina de la prehistoria hasta nuestros
+                días, siempre han existido relatos de monstruos
+                fantásticos en Japón; mujeres con una segunda
+                boca en la parte posterior de la cabeza,
+                elefantes-dragones que se alimentan únicamente
+                de pesadillas, bebés zombis, zorros parlantes,
+                pollos que exhalan fuego, amasijos animados de...
+                </p>
+              <a href="/libros/desfile.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="py-4">
+    <div class="container">
+      <div class="row text-md-center">
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/El_enigma_de_la_habitacion.jpg" alt="libro1">
+            <div class="card-body">
+              <h5 class="card-title">El enigma de la habitacion 622</h5>     
+              <p class="card-text">
+              <strong>Resumen:</strong>
+              Año 2018. El joven y exitoso escritor Joël Dicker,
+              tras sufrir una ruptura amorosa y una fuerte
+              adicción a la escritura, decide ir a descansar al
+              lugar preferido de Bernard de Fallois, su antiguo
+              editor: el Palace de Verbier, un hotel de lujo a
+              pocos kilómetros de Ginebra. Allí ...</p>
+              <a href="/libros/enigma.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/El_largo.jpg">
+            <div class="card-body">
+              <h5 class="card-title">El largo camino a casa</h5>
+              <div class="d-flex libi"><span class="badge bg-warning text-dark">TOP</span></div>
+              <p class="card-text">
+               <strong>Resumen:</strong> 
+               En septiembre de 1940, mientras las bombas
+               alemanas caen sobre Gran Bretaña, la joven
+               Susan y su abuelo Bertie hallan consuelo criando
+               y entrenando palomas mensajeras que el Ejército
+               usará para transmitir información sobre los
+               movimientos de los nazis en la Francia ocupada.
+               A miles de kilómetros, en Estados...</p>
+              <a href="/libros/caminoac.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+  
+        <article class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/El_tatuador.jpg" alt="libro3">
+            <div class="card-body">
+              <h5 class="card-title">El tatuador</h5>
+              <p class="card-text">
+               <strong>Resumen:</strong>
+               Hay numerosos libros sobre el Holocausto, pero
+               ninguno como este. Se basa en una increíble
+               historia real detrás de uno de sus símbolos más
+               potentes: los números azules tatuados en los
+               brazos de los prisioneros de los campos de
+               concentración.
+               Cuando a Lale Sokolov le fue encomendada la... </p>
+              <a href="/libros/eltatu.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-3   mb-3 mb-lg-0">
+          <div class="card">
+            <img class="card-img-top h-100" src="/img/Portadas/Gente_normal.jpg" alt="libro4">
+            <div class="card-body">
+              <h5 class="card-title">Gente normal</h5>
+              <p class="card-text">
+                <strong>Resumen:</strong>
+                Marianne y Connell son compañeros de instituto
+                pero no se cruzan palabra. Él es uno de los
+                populares y ella, una chica solitaria que ha
+                aprendido a mantenerse alejada del resto de la
+                gente. Todos saben que ella vive en una mansión
+                y que él es de origen humilde...
+                </p>
+              <a href="/libros/genten.html" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <nav aria-label="... d-flex">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+      </li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="Catalogo.html">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="calogo1.html">2 <span class="visually-hidden">(current)</span></a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="calogo1.html">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+      <div class="col-12 col-md-6">
+      <h6>Redes sociales</h6>
+      <ul>
+        <li><a href="facebook.com">Facebook</a></li>
+        <li><a href="twitter.com">Twitter</a></li>
+        <li><a href="instagram.com">Instagram</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <h6>Derechos</h6>
+      <p>Todos los derechos reservados</p>
+    </div>
+  </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+
+
+      
+</body>
+</html>
